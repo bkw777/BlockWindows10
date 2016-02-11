@@ -21,6 +21,9 @@ REM 3021917 Update to Windows 7 SP1 for performance improvements
 
 REM TODO: GWXUX
 
+REM 20160209 bkw - TODO: https://support.microsoft.com/en-us/kb/3080351
+REM                determine OS version, install approriate update, set new registry value
+
 REM List of updates to block
 REM These are KB ID numbers, like KB3035583, without the "KB"
 set KBLIST=2952664 2990214 3035583 3021917 3022345 3080149
